@@ -1,0 +1,151 @@
+/* nav {
+    font-size: 15px;
+    margin-top: 0px;
+} */
+
+/* nav ul {
+    text-align: right;
+} */
+
+/* nav ul li {
+    display: inline-block;
+    list-style: none;
+} */
+nav {
+    margin-top: -45px;
+    justify-content: space-evenly;
+    padding: 18px;
+    position:fixed;
+    height: 70px;
+    width: 100%;
+    background-color: solid grey;
+}
+
+nav>li {
+    margin-top: -10px;
+    padding: 18px;    
+     margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    color: white;
+    
+    font-family: 'Dancing Script', cursive 
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(221, 109, 35, 0.7);
+    color: rgba(0, 35, 122, 0.7);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1#summary {
+    margin-top: 0;
+}
+
+.toppage {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url("https://bit.ly/2B3Alml");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.menu {
+    /* margin-top: 150px; */
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.788)), url('https://bit.ly/2TCzCPy');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+#menu-heading {
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+    color:white;
+}
+
+.click-me,
+button[type=submit],
+.deliver,
+.delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.deliver,
+.delivernot {
+    margin: 10px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.order-overlay {
+    padding: 20px 20px 0px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url('https://bit.ly/2XK84ZR');
+}
+
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.menu img {
+    height: 300px;
+    width: 300px;
+    border-radius: 70%;
+    color: white;
+}
+
+ul>li {
+    list-style: none;
+}
+
+#sum-order {
+    /* margin-top: 20px; */
+}
+
+.footer {
+    background-color: gray;
+    font-family: 'Kalam', cursive;
+}

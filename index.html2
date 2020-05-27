@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <tittle>Pizza application</tittle>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Kalam|Permanent+Marker|Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul>
+            <nav class="bg-dark d-flex">
+                <li><a href="#menulink">Menu</a></li>
+                <li><a href="#orderlink">Order</a></li>
+                <li><a href="#contactlink">Contact</a></li>
+            </nav>
+
+        </ul>
+        <div class="toppage d-flex justify-content-center">
+            <h1>Te la diamo calda.</h1>
+        </div>
+        <div class="menu-heading" id="menulink">
+            <h2>Menu.</h2>
+            <div class="menu text-center">
+                <div>
+                    <img src="https://bit.ly/2LBzFq6" alt="regular">
+                    <p>Regular<br>400</p>
+                    <div>
+                        <img src="https://bit.ly/2WGxFDt" alt="medium">
+                        <p>Medium<br>800</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://bit.ly/2YR5tNQ" alt="large">
+                    <p>Large<br>1400</p>
+                </div>
+                <div class="order text-centre" id="orderlink">
+                    <h2>Order</h2>
+                    <div class="form text center">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8 order-overlay text-center">
+                            <form id="pizza" class="col-sm-6 offset-sm-3 text-center">
+                                <div class="form text center">
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-8 order-overlay text-center">
+                                        <form id="pizza" class="col-sm-6 offset-sm-3 text-center">
+                                            <label for="flavours">Pick your pizza Flavour:</label>
+                                            <select id="flavours" class="custom-select custom-select-md mb-3 flavour"
+                                                required>
+                                                <option value="300">Veg Tikka</option>
+                                                <option value="400">Chicken Tikka</option>
+                                                <option value="250">Peri-Peri Chicken</option>
+                                                <option value="500">BBQ Steak</option>
+                                                <option value="350">Hawaiian</option>
+                                                <option value="400">Chicken and Mushroom</option>
+                                            </select>
+                                            <label for="sizes">Chose your preferred Size:</label>
+                                            <select id="sizes" class="custom-select custom-select-md mb-3" required>
+                                                <option value="400">Regular</option>
+                                                <option value="800">Medium</option>
+                                                <option value="1200">Large</option>
+                                            </select>
+                                            <label for="crusts">Choose your favorite Crust:</label>
+                                            <select id="crusts" class="custom-select custom-select-md mb-3" required>
+                                                <option value="100">Thin Crust @ Ksh. 90</option>
+                                                <option value="150">Thick Crust @ Ksh. 120</option>
+                                                <option value="180">FlatBread Crust @ sh. 180</option>
+                                                <option value="280">Custom Crust @ sh. 280</option>
+                                            </select>
+                                            <label for="toppings">Select Your favourite Toppings</label>
+                                            <select id="toppings" class="custom-select custom-select-md mb-3" required>
+                                                <option value="80">Tomato @ sh. 70</option>
+                                                <option value="80">Onions @ sh. 50</option>
+                                                <option value="80">Mushroom @ sh. 80</option>
+                                                <option value="120">Olives @ sh. 120</option>
+                                                <option value="170">Beef Peperoni @ sh. 170</option>
+                                                <option value="170">Periperi Chicken @ sh. 170</option>
+                                            </select>
+                                            <label for="number">Number of Pizza's</label>
+                                            <input type="number" class="form-control" id="number"
+                                                placeholder="Number of pizzas" min="1" max="10" required>
+                                            <button type="submit" class="btn btn-danger checkout"
+                                                id="checkout">Checkout</button>
+                                        </form>
+                                    </div>
+                                    <div class="order-summary" id="sum-order">
+                                        <h1 class="text-center" id="summary">Order Summary</h1>
+                                        <h2 class="text-center summary">Your order is as follows:</h2>
+                                        <ul id="list" class="text-center sum">
+                                        </ul>
+                                    </div>
+                                    <div class="d-block mx-auto text-center">
+                                        <button class='deliver'>Make Delivery</button>
+                                        <button class='delivernot'>Pick Up</button>
+                                    </div>
+                                </div>
+                                <footer>
+            
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <tittle>Pizza application</tittle>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Kalam|Permanent+Marker|Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul>
+            <nav class="bg-dark d-flex">
+                <li><a href="#menulink">Menu</a></li>                        <p>Email:horaceachapa@gmail.com</p>
+                                    <p>Tel:+254704016774</p>
+                                    <p><em>&copy; 2020All Rights Reserved</em></p>
+                                </footer>
+                        </div>
+                    </div>
+</body>
+<script src="js/jquery-3.4.1.js "></script>
+<!-- <script
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <tittle>Pizza application</tittle>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Kalam|Permanent+Marker|Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul>
+            <nav class="bg-dark d-flex">
+                <li><a href="#menulink">Menu</a></li> src="css/script.js"></script> -->
+<script src="scripts.js"></script>
+<!-- <script src="css/store.js"></script> -->
+
+
+</html>
